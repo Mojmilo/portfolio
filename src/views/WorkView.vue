@@ -1,23 +1,21 @@
 <template>
-  <div class="home">
-    <!-- <h1>Home page</h1> -->
-    <HomeSection/>
+  <div class="about">
+    <WorkSection/>
   </div>
 </template>
 
 <script>
-  import HomeSection from '../components/HomeView/HomeSection.vue';
-
+  import WorkSection from '../components/WorkView/WorkSection.vue';
 export default {
-  name: 'HomeView',
+  name: 'WorkView',
   components: {
-    HomeSection
-}
+    WorkSection
+  }
 }
 </script>
 
 <style scoped>
-.home {
+.about {
   width: 100%;
   position: relative;
   display: flex;

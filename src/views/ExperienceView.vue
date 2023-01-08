@@ -1,23 +1,21 @@
 <template>
-  <div class="home">
-    <!-- <h1>Home page</h1> -->
-    <HomeSection/>
+  <div class="about">
+    <ExperienceSection/>
   </div>
 </template>
 
 <script>
-  import HomeSection from '../components/HomeView/HomeSection.vue';
-
+  import ExperienceSection from '../components/ExperienceView/ExperienceSection.vue';
 export default {
-  name: 'HomeView',
+  name: 'ExperienceView',
   components: {
-    HomeSection
-}
+    ExperienceSection
+  }
 }
 </script>
 
 <style scoped>
-.home {
+.about {
   width: 100%;
   position: relative;
   display: flex;
